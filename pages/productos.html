@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../style/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
 </head>
 
@@ -23,7 +22,24 @@
     <a class="navegacion__enlace" href="./nosotros.html">Nosotros</a>
 </nav>
 <main class="contenedor">
-    <h1>Nuestros productos</h1>
+    <h1>React JS</h1>
+    <div class="camisa">
+        <img src="/img/3.jpg" alt="imagen del producto" class="camisa__imagen">
+        <div class="camisa__contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, tenetur! Similique reiciendis maxime numquam porro quia laborum culpa nam odit! 
+            </p>
+            <form class="formulario">
+                <select class="formulario__campo">
+                    <option disabled selected>-- Seleccionar talla --</option>
+                    <option>Chica</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+                <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                <input class="formulario__submit" type="submit" value="Agregar al carrito">
+            </form>
+        </div>
+    </div>
 </main>
 <footer class="footer">
     <p class="footer__texto">Frontend Store Todos los derechos reservados 2024.</p>
